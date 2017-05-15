@@ -1,0 +1,360 @@
+.fc {
+	text-align: left; direction: ltr;
+}
+.fc table {
+	border-collapse: collapse; border-spacing: 0;
+}
+html .fc {
+	font-size: 1em;
+}
+.fc table {
+	font-size: 1em;
+}
+.fc td {
+	padding: 0px; vertical-align: top;
+}
+.fc th {
+	padding: 0px; vertical-align: top;
+}
+.fc-header td {
+	white-space: nowrap;
+}
+.fc-header-left {
+	width: 25%; text-align: left;
+}
+.fc-header-center {
+	text-align: center;
+}
+.fc-header-right {
+	width: 25%; text-align: right;
+}
+.fc-header-title {
+	vertical-align: top; display: inline-block;
+}
+.fc-header-title h2 {
+	font-size: 16px; margin-top: 0px; white-space: nowrap;
+}
+.fc .fc-header-space {
+	padding-left: 10px;
+}
+.fc-header .fc-button {
+	margin-bottom: 1em; vertical-align: top;
+}
+.fc-header .fc-button {
+	margin-right: -1px;
+}
+.fc-header .fc-corner-right {
+	margin-right: 1px;
+}
+.fc-header .ui-corner-right {
+	margin-right: 0px;
+}
+.fc-header .fc-state-hover {
+	z-index: 2;
+}
+.fc-header .ui-state-hover {
+	z-index: 2;
+}
+.fc-header .fc-state-down {
+	z-index: 3;
+}
+.fc-header .fc-state-active {
+	z-index: 4;
+}
+.fc-header .ui-state-active {
+	z-index: 4;
+}
+.fc-content {
+	clear: both;
+}
+.fc-view {
+	width: 100%; overflow: hidden;
+}
+.fc-widget-header {
+	color: rgb(100, 100, 100); background-image: linear-gradient(rgb(250, 250, 250), rgb(239, 239, 239));
+}
+.fc-widget-header {
+	border: 1px solid rgb(221, 221, 221); border-image: none; color: rgb(100, 100, 100);
+}
+.fc-widget-content {
+	border: 1px solid rgb(221, 221, 221); border-image: none; color: rgb(100, 100, 100);
+}
+.fc-state-highlight {
+	background: rgb(255, 255, 255);
+}
+.fc-cell-overlay {
+	background: rgb(153, 204, 255); opacity: 0.2;
+}
+.fc-button {
+	top: -52px; overflow: hidden; display: inline-block; position: relative; cursor: pointer;
+}
+.fc-header {
+	margin-bottom: -20px;
+}
+.fc-state-default {
+	border-width: 1px 0px; border-style: solid;
+}
+.fc-button-inner {
+	padding: 5px; overflow: hidden; float: left; position: relative;
+}
+.fc-state-default .fc-button-inner {
+	border-width: 0px 1px; border-style: solid;
+}
+.fc-button-content {
+	padding: 0px 0.6em; height: 1.9em; line-height: 1.9em; float: left; white-space: nowrap; position: relative;
+}
+.fc-button-content .fc-icon-wrap {
+	top: 50%; float: left; position: relative;
+}
+.fc-button-content .ui-icon {
+	margin-top: -50%; float: left; position: relative;
+}
+.fc-state-default .fc-button-effect {
+	left: 0px; top: 50%; position: absolute;
+}
+.fc-state-default .fc-button-effect span {
+	
+}
+.fc-state-default {
+	background: none; border-style: none solid; border-color: rgb(221, 221, 221); color: rgb(100, 100, 100);
+}
+.fc-state-default .fc-button-inner {
+	background: none; border-style: none solid; border-color: rgb(221, 221, 221); color: rgb(100, 100, 100);
+}
+.fc-state-hover {
+	background: rgb(250, 250, 250); border-color: rgb(221, 221, 221);
+}
+.fc-state-hover .fc-button-inner {
+	background: rgb(250, 250, 250); border-color: rgb(221, 221, 221);
+}
+.fc-state-down {
+	background: none; border-color: rgb(221, 221, 221);
+}
+.fc-state-down .fc-button-inner {
+	background: none; border-color: rgb(221, 221, 221);
+}
+.fc-state-active {
+	background: rgb(255, 255, 255); border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(255, 255, 255); color: rgb(100, 100, 100); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.fc-state-active .fc-button-inner {
+	background: rgb(255, 255, 255); border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(255, 255, 255); color: rgb(100, 100, 100); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.fc-state-disabled {
+	cursor: default;
+}
+.fc-state-disabled .fc-button-effect {
+	display: none;
+}
+.fc-event {
+	border-width: 0px; border-style: solid; font-size: 0.85em; cursor: default;
+}
+a.fc-event {
+	cursor: pointer;
+}
+.fc-event-draggable {
+	cursor: pointer;
+}
+a.fc-event {
+	text-decoration: none;
+}
+.fc-rtl .fc-event {
+	text-align: right;
+}
+.fc-event-skin {
+	border-color: rgb(129, 196, 230); color: rgb(255, 255, 255); background-color: rgb(140, 204, 236);
+}
+.fc-event-inner {
+	border-width: 0px; border-style: solid; width: 100%; height: 100%; overflow: hidden; position: relative;
+}
+.fc-event-time {
+	padding: 0px 1px;
+}
+.fc-event-title {
+	padding: 0px 1px;
+}
+.fc .ui-resizable-handle {
+	line-height: 50%; overflow: hidden; font-size: 300%; display: block; position: absolute; z-index: 99999;
+}
+.fc-event-hori {
+	border-width: 1px 0px; margin-bottom: 1px;
+}
+.fc-event-hori .ui-resizable-e {
+	top: 0px !important; width: 7px !important; height: 100% !important; right: -3px !important; cursor: e-resize;
+}
+.fc-event-hori .ui-resizable-w {
+	left: -3px !important; top: 0px !important; width: 7px !important; height: 100% !important; cursor: w-resize;
+}
+.fc-event-hori .ui-resizable-handle {
+	_padding-bottom: 14px;
+}
+.fc-corner-left {
+	margin-left: 1px;
+}
+.fc-corner-left .fc-button-inner {
+	margin-left: -1px;
+}
+.fc-corner-left .fc-event-inner {
+	margin-left: -1px;
+}
+.fc-corner-right {
+	margin-right: 1px;
+}
+.fc-corner-right .fc-button-inner {
+	margin-right: -1px;
+}
+.fc-corner-right .fc-event-inner {
+	margin-right: -1px;
+}
+.fc-corner-top {
+	margin-top: 1px;
+}
+.fc-corner-top .fc-event-inner {
+	margin-top: -1px;
+}
+.fc-corner-bottom {
+	margin-bottom: 1px;
+}
+.fc-corner-bottom .fc-event-inner {
+	margin-bottom: -1px;
+}
+.fc-corner-left .fc-event-inner {
+	border-left-width: 1px;
+}
+.fc-corner-right .fc-event-inner {
+	border-right-width: 1px;
+}
+.fc-corner-top .fc-event-inner {
+	border-top-width: 1px;
+}
+.fc-corner-bottom .fc-event-inner {
+	border-bottom-width: 1px;
+}
+table.fc-border-separate {
+	border-collapse: separate;
+}
+.fc-border-separate th {
+	border-width: 1px 0px 0px 1px;
+}
+.fc-border-separate td {
+	border-width: 1px 0px 0px 1px;
+}
+.fc-border-separate th.fc-last {
+	border-right-width: 1px;
+}
+.fc-border-separate td.fc-last {
+	border-right-width: 1px;
+}
+.fc-border-separate tr.fc-last th {
+	border-bottom-width: 1px;
+}
+.fc-border-separate tr.fc-last td {
+	border-bottom-width: 1px;
+}
+.fc-border-separate tbody tr.fc-first td {
+	border-top-width: 0px;
+}
+.fc-border-separate tbody tr.fc-first th {
+	border-top-width: 0px;
+}
+.fc-grid th {
+	text-align: center;
+}
+.fc-grid .fc-day-number {
+	padding: 0px 2px; float: right;
+}
+.fc-grid .fc-other-month .fc-day-number {
+	opacity: 0.3;
+}
+.fc-grid .fc-day-content {
+	padding: 2px 2px 1px; clear: both;
+}
+.fc-grid .fc-event-time {
+	font-weight: bold;
+}
+.fc-rtl .fc-grid .fc-day-number {
+	float: left;
+}
+.fc-rtl .fc-grid .fc-event-time {
+	float: right;
+}
+.fc-agenda table {
+	border-collapse: separate;
+}
+.fc-agenda-days th {
+	text-align: center;
+}
+.fc-agenda .fc-agenda-axis {
+	padding: 0px 4px; width: 50px; text-align: right; font-weight: normal; vertical-align: middle; white-space: nowrap;
+}
+.fc-agenda .fc-day-content {
+	padding: 2px 2px 1px;
+}
+.fc-agenda-days .fc-agenda-axis {
+	border-right-width: 1px;
+}
+.fc-agenda-days .fc-col0 {
+	border-left-width: 0px;
+}
+.fc-agenda-allday th {
+	border-width: 0px 1px;
+}
+.fc-agenda-allday .fc-day-content {
+	min-height: 34px; _height: 34px;
+}
+.fc-agenda-divider-inner {
+	height: 2px; overflow: hidden;
+}
+.fc-widget-header .fc-agenda-divider-inner {
+	background: rgb(238, 238, 238);
+}
+.fc-agenda-slots th {
+	border-width: 1px;
+}
+.fc-agenda-slots td {
+	background: none; border-width: 1px 0px 0px;
+}
+.fc-agenda-slots td div {
+	height: 20px;
+}
+.fc-agenda-slots tr.fc-slot0 th {
+	border-top-width: 0px;
+}
+.fc-agenda-slots tr.fc-slot0 td {
+	border-top-width: 0px;
+}
+.fc-agenda-slots tr.fc-minor th {
+	border-top-style: dotted;
+}
+.fc-agenda-slots tr.fc-minor td {
+	border-top-style: dotted;
+}
+.fc-agenda-slots tr.fc-minor th.ui-widget-header {
+	
+}
+.fc-event-vert {
+	border-width: 0px 1px;
+}
+.fc-event-vert .fc-event-head {
+	width: 100%; overflow: hidden; position: relative; z-index: 2;
+}
+.fc-event-vert .fc-event-content {
+	width: 100%; overflow: hidden; position: relative; z-index: 2;
+}
+.fc-event-vert .fc-event-time {
+	font-size: 10px; white-space: nowrap;
+}
+.fc-event-vert .fc-event-bg {
+	background: rgb(255, 255, 255); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; opacity: 0.3;
+}
+.fc .ui-draggable-dragging .fc-event-bg {
+	
+}
+.fc-select-helper .fc-event-bg {
+	
+}
+.fc-event-vert .ui-resizable-s {
+	width: 100% !important; height: 8px !important; text-align: center; bottom: 0px !important; line-height: 8px !important; overflow: hidden !important; font-family: monospace; font-size: 11px !important; cursor: s-resize;
+}
+.fc-agenda .ui-resizable-resizing {
+	_overflow: hidden;
+}

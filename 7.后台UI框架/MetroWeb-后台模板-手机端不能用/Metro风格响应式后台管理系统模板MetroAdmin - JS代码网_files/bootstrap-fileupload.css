@@ -1,0 +1,66 @@
+.btn-file {
+	overflow: hidden; vertical-align: middle; position: relative;
+}
+.btn-file > input {
+	margin: 0px; top: 0px; right: 0px; font-size: 23px; position: absolute; cursor: pointer; direction: ltr; opacity: 0; transform: translate(-300px, 0px) scale(4);
+}
+.fileupload {
+	margin-bottom: 9px;
+}
+.fileupload .uneditable-input {
+	margin-bottom: 0px; vertical-align: middle; display: inline-block; cursor: text;
+}
+.fileupload .thumbnail {
+	text-align: center; overflow: hidden; margin-bottom: 5px; vertical-align: middle; display: inline-block;
+}
+.fileupload .thumbnail > img {
+	vertical-align: middle; display: inline-block; max-height: 100%;
+}
+.fileupload .btn {
+	vertical-align: middle;
+}
+.fileupload-exists .fileupload-new {
+	display: none;
+}
+.fileupload-new .fileupload-exists {
+	display: none;
+}
+.fileupload-inline .fileupload-controls {
+	display: inline;
+}
+.fileupload-new .input-append .btn-file {
+	border-radius: 0px 3px 3px 0px; -webkit-border-radius: 0 3px 3px 0; -moz-border-radius: 0 3px 3px 0;
+}
+.thumbnail-borderless .thumbnail {
+	padding: 0px; border-radius: 0px; border: currentColor; border-image: none; box-shadow: none; -webkit-border-radius: 0; -moz-border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.thumbnail-borderless.fileupload-new .thumbnail {
+	border: 1px solid rgb(221, 221, 221); border-image: none;
+}
+.warning.control-group .fileupload .uneditable-input {
+	border-color: rgb(164, 126, 60); color: rgb(164, 126, 60);
+}
+.warning.control-group .fileupload .fileupload-preview {
+	color: rgb(164, 126, 60);
+}
+.warning.control-group .fileupload .thumbnail {
+	border-color: rgb(164, 126, 60);
+}
+.error.control-group .fileupload .uneditable-input {
+	border-color: rgb(185, 74, 72); color: rgb(185, 74, 72);
+}
+.error.control-group .fileupload .fileupload-preview {
+	color: rgb(185, 74, 72);
+}
+.error.control-group .fileupload .thumbnail {
+	border-color: rgb(185, 74, 72);
+}
+.success.control-group .fileupload .uneditable-input {
+	border-color: rgb(70, 136, 71); color: rgb(70, 136, 71);
+}
+.success.control-group .fileupload .fileupload-preview {
+	color: rgb(70, 136, 71);
+}
+.success.control-group .fileupload .thumbnail {
+	border-color: rgb(70, 136, 71);
+}

@@ -1,0 +1,620 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0069)http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+
+<META http-equiv="content-type" content="text/html;charset=UTF-8">        
+<TITLE>Metro风格响应式后台管理系统模板MetroAdmin - JS代码网</TITLE>    
+<META name="viewport" content="width=device-width, initial-scale=1.0">    
+<META name="description" content="">    
+<META name="author" content="Mosaddek">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/bootstrap.min.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/bootstrap-responsive.min.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/bootstrap-fileupload.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/font-awesome.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/style.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/style-responsive.css" 
+rel="stylesheet">    <LINK id="style_color" href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/style-default.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/bootstrap-fullcalendar.css" 
+rel="stylesheet">    <LINK href="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.easy-pie-chart.css" 
+rel="stylesheet" type="text/css" media="screen"> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18426"></HEAD> 
+<BODY class="fixed-top">
+<DIV class="navbar navbar-inverse navbar-fixed-top" id="header">
+<DIV class="navbar-inner">
+<DIV class="container-fluid">
+<DIV class="sidebar-toggle-box hidden-phone">
+<DIV class="icon-reorder tooltips" data-original-title="Toggle Navigation" 
+data-placement="right"></DIV></DIV><A class="brand" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html"><IMG 
+alt="Metro Lab" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/logo.png">   
+             </A><A class="btn btn-navbar collapsed" id="main_menu_trigger" 
+data-target=".nav-collapse" data-toggle="collapse"><SPAN 
+class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN 
+class="icon-bar"></SPAN><SPAN class="arrow"></SPAN>                </A>
+<DIV class="nav notify-row" id="top_menu">
+<UL class="nav top-menu">
+  <LI class="dropdown"><A class="dropdown-toggle" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-toggle="dropdown"><I class="icon-tasks"></I>                              
+    <SPAN class="badge badge-important">6</SPAN>                            </A>
+  <UL class="dropdown-menu extended tasks-bar">
+    <LI>
+    <P>你有6条任务</P></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">
+    <DIV class="task-info">
+    <DIV class="desc">控制台</DIV>
+    <DIV class="percent">44%</DIV></DIV>
+    <DIV class="progress progress-striped active no-margin-bot">
+    <DIV class="bar" style="width: 44%;"></DIV></DIV></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">
+    <DIV class="task-info">
+    <DIV class="desc">数据库更新</DIV>
+    <DIV class="percent">65%</DIV></DIV>
+    <DIV 
+class="progress progress-striped progress-success active no-margin-bot">
+    <DIV class="bar" style="width: 65%;"></DIV></DIV></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">
+    <DIV class="task-info">
+    <DIV class="desc">手机开发进度</DIV>
+    <DIV class="percent">87%</DIV></DIV>
+    <DIV class="progress progress-striped progress-info active no-margin-bot">
+    <DIV class="bar" style="width: 87%;"></DIV></DIV></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">
+    <DIV class="task-info">
+    <DIV class="desc">手机App进度</DIV>
+    <DIV class="percent">33%</DIV></DIV>
+    <DIV 
+class="progress progress-striped progress-warning active no-margin-bot">
+    <DIV class="bar" style="width: 33%;"></DIV></DIV></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">
+    <DIV class="task-info">
+    <DIV class="desc">控制台</DIV>
+    <DIV class="percent">90%</DIV></DIV>
+    <DIV class="progress progress-striped progress-danger active no-margin-bot">
+    <DIV class="bar" style="width: 90%;"></DIV></DIV></A></LI>
+    <LI class="external"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">查看所有任务</A></LI></UL></LI>
+  <LI class="dropdown" id="header_inbox_bar"><A class="dropdown-toggle" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-toggle="dropdown"><I class="icon-envelope-alt"></I>                       
+           <SPAN class="badge badge-important">5</SPAN>                          
+    </A>
+  <UL class="dropdown-menu extended inbox">
+    <LI>
+    <P>你有5条消息</P></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="photo"><IMG alt="avatar" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar-mini.png"></SPAN>
+    									 <SPAN class="subject"><SPAN class="from">Jonathan Smith</SPAN>
+    									 <SPAN class="time">Just now</SPAN>									 </SPAN><SPAN class="message">
+    									    Hello, 这是个消息列子.									 </SPAN></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="photo"><IMG alt="avatar" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar-mini.png"></SPAN>
+    									 <SPAN class="subject"><SPAN class="from">Jhon Doe</SPAN>
+    									 <SPAN class="time">10 mins</SPAN>									 </SPAN><SPAN class="message">
+    									 Hi, 最近咋样?									 </SPAN></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="photo"><IMG alt="avatar" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar-mini.png"></SPAN>
+    									 <SPAN class="subject"><SPAN class="from">Jason Stathum</SPAN>
+    									 <SPAN class="time">3 hrs</SPAN>									 </SPAN><SPAN class="message">
+    									    This is awesome dashboard.									 </SPAN></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="photo"><IMG alt="avatar" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar-mini.png"></SPAN>
+    									 <SPAN class="subject"><SPAN class="from">Jondi Rose</SPAN>
+    									 <SPAN class="time">Just now</SPAN>									 </SPAN><SPAN class="message">
+    									    Hello, this is metrolab									 </SPAN></A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">See 
+    all messages</A></LI></UL></LI>
+  <LI class="dropdown" id="header_notification_bar"><A class="dropdown-toggle" 
+  href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-toggle="dropdown"><I class="icon-bell-alt"></I>                           
+       <SPAN class="badge badge-warning">7</SPAN>                            
+</A>
+  <UL class="dropdown-menu extended notification">
+    <LI>
+    <P>你有7条提示信息</P></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="label label-important"><I class="icon-bolt"></I></SPAN>               
+                             Server #3 overloaded.                               
+             <SPAN class="small italic">34 mins</SPAN>                           
+             </A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="label label-warning"><I class="icon-bell"></I></SPAN>                 
+                          Server #10 not respoding.                              
+              <SPAN class="small italic">1 Hours</SPAN>                          
+              </A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="label label-important"><I class="icon-bolt"></I></SPAN>               
+                            Database overloaded 24%.                             
+               <SPAN class="small italic">4 hrs</SPAN>                           
+             </A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="label label-success"><I class="icon-plus"></I></SPAN>                 
+                          New user registered.                                   
+         <SPAN class="small italic">Just now</SPAN>                              
+          </A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><SPAN 
+    class="label label-info"><I class="icon-bullhorn"></I></SPAN>                
+                           Application error.                                    
+        <SPAN class="small italic">10 mins</SPAN>                                
+        </A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">See 
+    all notifications</A></LI></UL></LI></UL></DIV>
+<DIV class="top-nav ">
+<UL class="nav pull-right top-menu">
+  <LI class="dropdown mtop5"><A class="dropdown-toggle element" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-original-title="Chat" data-placement="bottom" data-toggle="tooltip"><I 
+  class="icon-comments-alt"></I>                            </A></LI>
+  <LI class="dropdown mtop5"><A class="dropdown-toggle element" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-original-title="Help" data-placement="bottom" data-toggle="tooltip"><I 
+  class="icon-headphones"></I>                            </A></LI>
+  <LI class="dropdown"><A class="dropdown-toggle" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+  data-toggle="dropdown"><IMG alt="" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar1_small.jpg"> 
+                                 <SPAN class="username">Jhon Doe</SPAN>          
+                        <B class="caret"></B>                            </A>
+  <UL class="dropdown-menu extended logout">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><I 
+    class="icon-user"></I>我的资料</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><I 
+    class="icon-cog"></I>我的设置</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/login.html"><I 
+    class="icon-key"></I>退出</A></LI></UL></LI></UL></DIV></DIV></DIV></DIV>
+<DIV class="row-fluid" id="container">
+<DIV class="sidebar-scroll">
+<DIV class="nav-collapse collapse" id="sidebar">
+<DIV class="navbar-inverse">
+<FORM class="navbar-search visible-phone"><INPUT class="search-query" type="text" placeholder="Search" value=""> 
+            </FORM></DIV>
+<UL class="sidebar-menu">
+  <LI class="sub-menu active"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html"><I 
+  class="icon-dashboard"></I>                       <SPAN>控制台</SPAN>             
+        </A></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-book"></I>          
+               <SPAN>UI 组件</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/general.html">通用</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/button.html">按钮</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/slider.html">滑动</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/metro_view.html">Metro风格</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/tabs_accordion.html">Tab选项卡 
+    &amp; 手风琴</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/typography.html">文字排版</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/tree_view.html">树菜单</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/nestable.html">嵌套列表</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-cogs"></I>          
+               <SPAN>插件</SPAN>                       <SPAN class="arrow"></SPAN> 
+                    </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/calendar.html">日历</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/grids.html">网格</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/chartjs.html">图表统计</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/flot_chart.html">Flot图表</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/gallery.html">相册</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-tasks"></I>         
+                <SPAN>表单</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/form_layout.html">表单布局</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/form_component.html">表单组件</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/form_wizard.html">表单提示</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/form_validation.html">表单验证</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/dropzone.html">文件上传</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-th"></I>            
+             <SPAN>数据表格</SPAN>                       <SPAN class="arrow"></SPAN> 
+                    </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/basic_table.html">简单表格</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/dynamic_table.html">动态表格</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/editable_table.html">可编辑表格</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-fire"></I>          
+               <SPAN>Icon图标</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/font_awesome.html">FontAwesome图标</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/glyphicons.html">Glyphicons图标</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-trophy"></I>        
+                 <SPAN>代码片段</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/general_portlet.html">通用片段</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/draggable_portlet.html">可拖拽片段</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-map-marker"></I>    
+                     <SPAN>地图</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/vector_map.html">Vector地图</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/google_map.html">Google地图</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-file-alt"></I>      
+                   <SPAN>基本页面</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/blank.html">空白页面</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/blog.html">博客</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/timeline.html">时间轴</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/profile.html">个人资料</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/about_us.html">关于我们</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/contact_us.html">联系我们</A></LI></UL></LI>
+  <LI class="sub-menu"><A href="javascript:;"><I class="icon-glass"></I>         
+                <SPAN>其他</SPAN>                       <SPAN 
+  class="arrow"></SPAN>                   </A>
+  <UL class="sub">
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/lock.html">锁屏</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/invoice.html">购物单</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/pricing_tables.html">价目单</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/search_result.html">搜索展示</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/faq.html">帮助页面</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/404.html">404错误页面</A></LI>
+    <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/500.html">500错误页面</A></LI></UL></LI>
+  <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/login.html"><I 
+  class="icon-user"></I>                     <SPAN>登录页面</SPAN>                   
+  </A></LI></UL></DIV></DIV>
+<DIV id="main-content">
+<DIV class="container-fluid">
+<DIV class="row-fluid">
+<DIV class="span12">
+<DIV class="hidden-phone" id="theme-change"><I class="icon-cogs"></I>            
+             <SPAN class="settings"><SPAN class="text">主题颜色:</SPAN>              
+               <SPAN class="colors"><SPAN class="color-default" data-style="default"></SPAN> 
+                                <SPAN class="color-green" 
+data-style="green"></SPAN>                                 <SPAN class="color-gray" 
+data-style="gray"></SPAN>                                 <SPAN class="color-purple" 
+data-style="purple"></SPAN>                                 <SPAN class="color-red" 
+data-style="red"></SPAN>                             </SPAN></SPAN>              
+      </DIV>
+<H3 class="page-title">控制台                    </H3>
+<UL class="breadcrumb">
+  <LI><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">首页</A> 
+                             <SPAN class="divider">/</SPAN>                      
+    </LI>
+  <LI class="active">控制台                        </LI>
+  <LI class="pull-right search-wrap">
+  <FORM class="hidden-phone" action="http://www.js-css.cn/divcss/admin/metro/search_result.html">
+  <DIV 
+class="input-append search-input-area"><INPUT id="appendedInputButton" type="text"> 
+                                     <BUTTON class="btn" type="button"><I class="icon-search"></I> 
+  </BUTTON>                                </DIV></FORM></LI></UL></DIV></DIV>
+<DIV class="row-fluid">
+<DIV class="metro-nav">
+<DIV class="metro-nav-block nav-block-orange"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-user"></I>                             
+<DIV class="info">321</DIV>
+<DIV class="status">新增用户</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-olive"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-tags"></I>                             
+<DIV class="info">+970</DIV>
+<DIV class="status">销售数据</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-block-yellow"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-comments-alt"></I>                         
+    
+<DIV class="info">49</DIV>
+<DIV class="status">用户评论</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-block-green double"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-eye-open"></I>                             
+<DIV class="info">+897</DIV>
+<DIV class="status">UV</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-block-red"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-bar-chart"></I>                            
+ 
+<DIV class="info">+288</DIV>
+<DIV class="status">更新</DIV></A>                     </DIV></DIV>
+<DIV class="metro-nav">
+<DIV class="metro-nav-block nav-light-purple"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-shopping-cart"></I>                        
+     
+<DIV class="info">29</DIV>
+<DIV class="status">新增订单</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-light-blue double"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-tasks"></I>                             
+<DIV class="info">$37624</DIV>
+<DIV class="status">库存信息</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-light-green"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-envelope"></I>                             
+<DIV class="info">123</DIV>
+<DIV class="status">消息</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-light-brown"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-remove-sign"></I>                          
+   
+<DIV class="info">34</DIV>
+<DIV class="status">取消订单</DIV></A>                     </DIV>
+<DIV class="metro-nav-block nav-block-grey "><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#" 
+data-original-title=""><I class="icon-external-link"></I>                        
+     
+<DIV class="info">$53412</DIV>
+<DIV class="status">总利润</DIV></A>                     </DIV></DIV>
+<DIV class="space10"></DIV></DIV>
+<DIV class="row-fluid">
+<DIV class="span6">
+<DIV class="widget ">
+<DIV class="widget-title">
+<H4><I class="icon-reorder"></I> 饼状图</H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                                 <A class="icon-remove" 
+href="javascript:;"></A>                             </SPAN>                     
+    </DIV>
+<DIV class="widget-body">
+<DIV class="text-center"><CANVAS width="400" height="300" 
+id="doughnut"></CANVAS>                             </DIV></DIV></DIV></DIV>
+<DIV class="span6">
+<DIV class="widget green">
+<DIV class="widget-title">
+<H4><I class="icon-reorder"></I> 曲线图</H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                                 <A class="icon-remove" 
+href="javascript:;"></A>                             </SPAN>                     
+    </DIV>
+<DIV class="widget-body">
+<DIV class="text-center"><CANVAS width="450" height="300" id="line"></CANVAS>    
+                         </DIV></DIV></DIV></DIV></DIV>
+<DIV class="row-fluid">
+<DIV class="span7">
+<DIV class="widget orange">
+<DIV class="widget-title">
+<H4><I class="icon-tasks"></I> 通用统计 </H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                             <A class="icon-remove" 
+href="javascript:;"></A>                          </SPAN>                        
+     
+<DIV class="update-btn"><A class="btn update-easy-pie-chart" 
+href="javascript:;"><I class="icon-repeat"></I> Update</A>                       
+      </DIV></DIV>
+<DIV class="widget-body">
+<DIV class="text-center">
+<DIV class="easy-pie-chart">
+<DIV class="percentage success" data-percent="55"><SPAN>55</SPAN>%</DIV>
+<DIV class="title">New visits</DIV></DIV>
+<DIV class="easy-pie-chart">
+<DIV class="percentage" data-percent="46"><SPAN>46</SPAN>%</DIV>
+<DIV class="title">Bounce rate</DIV></DIV>
+<DIV class="easy-pie-chart">
+<DIV class="percentage" data-percent="92"><SPAN>92</SPAN>%</DIV>
+<DIV class="title">Server load</DIV></DIV>
+<DIV class="easy-pie-chart">
+<DIV class="percentage" data-percent="84"><SPAN>752</SPAN>MB</DIV>
+<DIV class="title">Used RAM</DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="span5">
+<DIV class="widget purple">
+<DIV class="widget-title">
+<H4><I class="icon-tasks"></I> 统计数据 </H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                             <A class="icon-remove" 
+href="javascript:;"></A>                          </SPAN>                        
+ </DIV>
+<DIV class="widget-body">
+<DIV class="row-fluid">
+<DIV class="text-center">
+<DIV class="sparkline">
+<DIV id="metro-sparkline-type1"></DIV>
+<DIV class="sparkline-tittle">Server Load</DIV></DIV>
+<DIV class="sparkline">
+<DIV id="metro-sparkline-type2"></DIV>
+<DIV class="sparkline-tittle">Network Load</DIV></DIV>
+<DIV class="sparkline">
+<DIV id="metro-sparkline-type3"></DIV>
+<DIV class="sparkline-tittle">Visit 
+Load</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="row-fluid">
+<DIV class="span6">
+<DIV class="widget blue">
+<DIV class="widget-title">
+<H4><I class="icon-bell"></I> 提示信息 </H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                                <A class="icon-remove" 
+href="javascript:;"></A>                            </SPAN>                      
+    </DIV>
+<DIV class="widget-body">
+<UL class="item-list scroller padding" style="width: auto; height: 320px; overflow: hidden;" 
+data-always-visible="1">
+  <LI><SPAN class="label label-success"><I class="icon-bell"></I></SPAN>         
+                               <SPAN>New user registered.</SPAN>                 
+                       
+  <DIV class="pull-right"><SPAN class="small italic ">Just now</SPAN>            
+                            </DIV></LI>
+  <LI><SPAN class="label label-success"><I class="icon-bell"></I></SPAN>         
+                               <SPAN>New order received.</SPAN>                  
+                      
+  <DIV class="pull-right"><SPAN class="small italic ">15 mins ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Alerting a user account balance.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">3 hours ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Alerting administrators staff.</SPAN>     
+                                   
+  <DIV class="pull-right"><SPAN class="small italic ">9 mins ago</SPAN>          
+                              </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Messages are not sent to users.</SPAN>    
+                                    
+  <DIV class="pull-right"><SPAN class="small italic ">10 hours ago</SPAN>        
+                                </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Web server #12 failed to relosd.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">3 mins ago</SPAN>          
+                              </DIV></LI>
+  <LI><SPAN class="label label-success"><I class="icon-bell"></I></SPAN>         
+                               <SPAN>New order received.</SPAN>                  
+                      
+  <DIV class="pull-right"><SPAN class="small italic ">40 mins ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Alerting a user account balance.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">1 hours ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Alerting administrators staff.</SPAN>     
+                                   
+  <DIV class="pull-right"><SPAN class="small italic ">1 mins ago</SPAN>          
+                              </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Messages are not sent to users.</SPAN>    
+                                    
+  <DIV class="pull-right"><SPAN class="small italic ">11 hours ago</SPAN>        
+                                </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Web server #12 failed to relosd.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">1 day ago</SPAN>           
+                             </DIV></LI>
+  <LI><SPAN class="label label-success"><I class="icon-bell"></I></SPAN>         
+                               <SPAN>New order received.</SPAN>                  
+                      
+  <DIV class="pull-right"><SPAN class="small italic ">10 mins ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Alerting a user account balance.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">3 hours ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Alerting administrators support 
+  staff.</SPAN>                                      
+  <DIV class="pull-right"><SPAN class="small italic ">6 hours ago</SPAN>         
+                               </DIV></LI>
+  <LI><SPAN class="label label-important"><I class=" icon-bug"></I></SPAN>       
+                                 <SPAN>Messages are not sent to users.</SPAN>    
+                                    
+  <DIV class="pull-right"><SPAN class="small italic ">3 days ago</SPAN>          
+                              </DIV></LI>
+  <LI><SPAN class="label label-warning"><I class="icon-bullhorn"></I></SPAN>     
+                                   <SPAN>Web server #12 failed to relosd.</SPAN> 
+                                       
+  <DIV class="pull-right"><SPAN class="small italic ">1 day ago</SPAN>           
+                             </DIV></LI></UL>
+<DIV class="space10"></DIV><A class="pull-right" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">View 
+all notifications</A>                              
+<DIV class="clearfix no-top-space no-bottom-space"></DIV></DIV></DIV></DIV>
+<DIV class="span6">
+<DIV class="widget red">
+<DIV class="widget-title">
+<H4><I class="icon-comments-alt"></I>聊天</H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>									 <A class="icon-remove" 
+href="javascript:;"></A>									 </SPAN>                          </DIV>
+<DIV class="widget-body">
+<DIV class="timeline-messages">
+<DIV class="msg-time-chat"><A class="message-img" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><IMG 
+class="avatar" alt="" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar1.jpg"></A> 
+                                     
+<DIV class="message-body msg-in"><SPAN class="arrow"></SPAN>
+<DIV class="text">
+<P class="attribution"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">Jhon 
+Doe</A> at 1:55pm, 13th April 2013</P>
+<P>Hello, How are you brother?</P></DIV></DIV></DIV>
+<DIV class="msg-time-chat"><A class="message-img" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><IMG 
+class="avatar" alt="" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar2.jpg"></A> 
+                                     
+<DIV class="message-body msg-out"><SPAN class="arrow"></SPAN>
+<DIV class="text">
+<P class="attribution"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">Jonathan 
+Smith</A> at 2:01pm, 13th April 2013</P>
+<P>I'm Fine, Thank you. What about you? How is going on?</P></DIV></DIV></DIV>
+<DIV class="msg-time-chat"><A class="message-img" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><IMG 
+class="avatar" alt="" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar1.jpg"></A> 
+                                     
+<DIV class="message-body msg-in"><SPAN class="arrow"></SPAN>
+<DIV class="text">
+<P class="attribution"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">Jhon 
+Doe</A> at 2:03pm, 13th April 2013</P>
+<P>Yeah I'm fine too. Everything is going fine here.</P></DIV></DIV></DIV>
+<DIV class="msg-time-chat"><A class="message-img" href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#"><IMG 
+class="avatar" alt="" src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/avatar2.jpg"></A> 
+                                     
+<DIV class="message-body msg-out"><SPAN class="arrow"></SPAN>
+<DIV class="text">
+<P class="attribution"><A href="http://www.17sucai.com/preview/224375/2015-03-25/metro_web/index.html#">Jonathan 
+Smith</A> at 2:05pm, 13th April 2013</P>
+<P>well good to know that. anyway how much time you need to done your 
+task?</P></DIV></DIV></DIV></DIV>
+<DIV class="chat-form">
+<DIV 
+class="input-cont"><INPUT type="text" placeholder="Type a message here..." value=""> 
+                                 </DIV>
+<DIV class="btn-cont"><A class="btn btn-primary" href="javascript:;">Send</A>    
+                              </DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class="row-fluid">
+<DIV class="span7 responsive" data-desktop="span7" data-tablet="span7 fix-margin">
+<DIV class="widget yellow">
+<DIV class="widget-title">
+<H4><I class="icon-calendar"></I> 日历</H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                                 <A class="icon-remove" 
+href="javascript:;"></A>                             </SPAN>                     
+    </DIV>
+<DIV class="widget-body">
+<DIV class="has-toolbar" id="calendar"></DIV></DIV></DIV></DIV>
+<DIV class="span5">
+<DIV class="widget purple">
+<DIV class="widget-title">
+<H4><I class="icon-tasks"></I> 任务进度 </H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                                 <A class="icon-remove" 
+href="javascript:;"></A>                             </SPAN>                     
+    </DIV>
+<DIV class="widget-body">
+<UL class="unstyled">
+  <LI><SPAN class="btn btn-inverse"><I class="icon-refresh"></I></SPAN>  Update 
+  Jquery <STRONG class="label"> 48%</STRONG>                                     
+  <DIV class="space10"></DIV>
+  <DIV class="progress">
+  <DIV class="bar" style="width: 48%;"></DIV></DIV></LI>
+  <LI><SPAN class="btn btn-inverse"><I class="icon-check"></I></SPAN>  Update 
+  font awesome <STRONG class="label label-success"> 85%</STRONG>                 
+                      
+  <DIV class="space10"></DIV>
+  <DIV class="progress progress-success">
+  <DIV class="bar" style="width: 85%;"></DIV></DIV></LI>
+  <LI><SPAN class="btn btn-inverse"><I class="icon-fire"></I></SPAN>  Update 
+  CSS3 <STRONG class="label label-important"> 65%</STRONG>                       
+                
+  <DIV class="space10"></DIV>
+  <DIV class="progress progress-danger">
+  <DIV class="bar" style="width: 65%;"></DIV></DIV></LI></UL></DIV></DIV>
+<DIV class="widget orange">
+<DIV class="widget-title">
+<H4><I class="icon-bell-alt"></I> 警告提示</H4><SPAN class="tools"><A class="icon-chevron-down" 
+href="javascript:;"></A>                             <A class="icon-remove" 
+href="javascript:;"></A>                             </SPAN>                     
+    </DIV>
+<DIV class="widget-body">
+<DIV class="alert"><BUTTON class="close" data-dismiss="alert">×</BUTTON>         
+                        <STRONG>Warning!</STRONG> Best check yo self, you're not 
+looking too good.                             </DIV>
+<DIV class="alert alert-success"><BUTTON class="close" 
+data-dismiss="alert">×</BUTTON>                                 
+<STRONG>Success!</STRONG> You successfully read this important message.          
+                   </DIV>
+<DIV class="alert alert-info"><BUTTON class="close" 
+data-dismiss="alert">×</BUTTON>                                 
+<STRONG>Info!</STRONG> Heads up! This alert needs your attention.                
+             </DIV>
+<DIV class="alert alert-error"><BUTTON class="close" 
+data-dismiss="alert">×</BUTTON>                                 
+<STRONG>Error!</STRONG> Change a few things. Please submit again.                
+             </DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id="footer">       2013 © MetroAdmin.    </DIV>
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery-1.8.3.min.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.nicescroll.js" type="text/javascript"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.slimscroll.min.js" type="text/javascript"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/fullcalendar.min.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/bootstrap.min.js"></SCRIPT>
+       <!--[if lt IE 9]>
+   <script src="http://www.js-css.cn/js/excanvas.js"></script>
+   <script src="http://www.js-css.cn/js/respond.js"></script>
+   <![endif]--> 
+   
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.easy-pie-chart.js" type="text/javascript"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.sparkline.js" type="text/javascript"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/chart.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/jquery.scrollto.min.js"></SCRIPT>
+       
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/common-scripts.js"></SCRIPT>
+       
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/easy-pie-chart.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/sparkline-chart.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/home-page-calender.js"></SCRIPT>
+    
+<SCRIPT src="Metro风格响应式后台管理系统模板MetroAdmin%20-%20JS代码网_files/home-chartjs.js"></SCRIPT>
+        </BODY></HTML>

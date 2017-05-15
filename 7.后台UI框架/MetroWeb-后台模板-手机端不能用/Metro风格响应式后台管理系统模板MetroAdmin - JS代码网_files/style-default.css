@@ -1,0 +1,156 @@
+body {
+	color: rgb(136, 136, 136);
+}
+a {
+	color: rgb(74, 139, 194); text-shadow: none !important;
+}
+a:hover {
+	color: rgb(74, 139, 194); text-shadow: none !important;
+}
+ul.faq-list li a:hover {
+	background: rgb(74, 139, 194);
+}
+ul.faq-list li a.active {
+	background: rgb(74, 139, 194);
+}
+.navbar-inverse#header .navbar-inner {
+	border-color: rgb(74, 139, 194); color: rgb(255, 255, 255); background-image: linear-gradient(rgb(74, 139, 194), rgb(74, 139, 194)); background-repeat: repeat-x; background-color: rgb(74, 139, 194);
+}
+.sidebar-toggle-box {
+	background: rgb(66, 125, 174); color: rgb(255, 255, 255);
+}
+#header .navbar-inner .nav .dropdown-toggle:hover {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.navbar-inner .nav .open.dropdown .dropdown-toggle {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.navbar-inverse#header .divider-vertical {
+	border-right-color: rgb(24, 26, 27); border-left-color: rgb(44, 45, 47);
+}
+#sidebar > ul > li > a {
+	color: rgb(255, 255, 255) !important;
+}
+#sidebar > ul > li a i {
+	color: rgb(255, 255, 255) !important; display: inline-block;
+}
+#sidebar > ul > li > ul.sub > li > a:hover {
+	background: rgb(87, 87, 87); transition-property: width, background; transition-duration: 500ms; transition-timing-function: ease; -webkit-transition-duration: 500ms; -webkit-transition-property: width, background; -webkit-transition-timing-function: ease;
+}
+#sidebar > ul > li > ul.sub > li.active > a {
+	background: rgb(87, 87, 87); transition-property: width, background; transition-duration: 500ms; transition-timing-function: ease; -webkit-transition-duration: 500ms; -webkit-transition-property: width, background; -webkit-transition-timing-function: ease;
+}
+#sidebar > ul > li.active > a {
+	background: rgb(74, 139, 194);
+}
+#sidebar > ul > li > a:hover {
+	background: rgb(74, 139, 194);
+}
+#sidebar > ul > li:hover > a {
+	background: rgb(74, 139, 194);
+}
+#sidebar > ul > li > ul.sub > li > a {
+	color: rgb(160, 160, 160);
+}
+.dropdown-menu li > a:hover {
+	color: rgb(51, 51, 51); text-decoration: none; filter: none; background-image: none; background-color: rgb(238, 238, 238);
+}
+.dropdown-menu .active > a {
+	color: rgb(51, 51, 51); text-decoration: none; filter: none; background-image: none; background-color: rgb(238, 238, 238);
+}
+.dropdown-menu .active > a:hover {
+	color: rgb(51, 51, 51); text-decoration: none; filter: none; background-image: none; background-color: rgb(238, 238, 238);
+}
+#sidebar > ul > li > ul.sub > li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.chats li.out .name {
+	color: rgb(177, 76, 76);
+}
+.chats li.in .message {
+	border-left-color: rgb(47, 142, 149); border-left-width: 2px; border-left-style: solid;
+}
+.chats li.in .message .arrow {
+	border-right-color: rgb(47, 142, 149); border-right-width: 8px; border-right-style: solid;
+}
+.chats li.out .message .arrow {
+	border-left-color: rgb(177, 76, 76); border-left-width: 8px; border-left-style: solid;
+}
+.chats li.out .message {
+	border-right-color: rgb(177, 76, 76); border-right-width: 2px; border-right-style: solid;
+}
+textarea:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='text']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='password']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='datetime']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='datetime-local']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='date']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='month']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='time']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='week']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='number']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='email']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='url']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='search']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='tel']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+input[type='color']:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+.uneditable-input:focus {
+	border: 1px solid rgb(74, 139, 194); border-image: none; box-shadow: none;
+}
+@media all and (max-width:979px)
+{
+#sidebar {
+	background-color: rgb(64, 64, 64) !important;
+}
+}
+.custom-wizard-pills .nav-pills li.active a {
+	background: rgb(74, 139, 194);
+}
+.custom-wizard-pills .nav-pills li a:hover {
+	background: rgb(74, 139, 194);
+}
+.invoice-list h5 {
+	color: rgb(64, 64, 64);
+}
+.about-us h4 {
+	color: rgb(64, 64, 64);
+}
+.team-member h3 {
+	color: rgb(64, 64, 64);
+}
+.team-member ul li a:hover {
+	color: rgb(64, 64, 64);
+}
+.contact-us h4 {
+	color: rgb(64, 64, 64);
+}
